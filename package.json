@@ -1,0 +1,16 @@
+{
+  "name": "zhutai_blog",
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
+    "vuepress-theme-reco": "^1.1.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "markdown-it": "^10.0.0",
+    "vuepress": "^1.2.0"
+  }
+}
