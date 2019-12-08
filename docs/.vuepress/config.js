@@ -38,25 +38,11 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "NPM",
-            "link": "https://www.npmjs.com/~reco_luan",
-            "icon": "reco-npm"
-          },
-          {
             "text": "GitHub",
             "link": "https://github.com/taisoulx",
             "icon": "reco-github"
           },
-          {
-            "text": "博客圆",
-            "link": "https://www.cnblogs.com/luanhewei/",
-            "icon": "reco-bokeyuan"
-          },
-          {
-            "text": "WeChat",
-            "link": "https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A",
-            "icon": "reco-wechat"
-          }
+          
         ]
       }
     ],
@@ -99,7 +85,8 @@ module.exports = {
     extendMarkdown: md => {
       // 使用更多的 markdown-it 插件!
       md.use(require('markdown-it'))
-    }
+    },
+    "lineNumbers": true
   },
   "plugins": [
     "@vuepress/medium-zoom",
