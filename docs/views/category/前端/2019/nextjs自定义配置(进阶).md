@@ -8,8 +8,8 @@ categories:
  - 前端
 ---
 
-# 1.自定义app
-## 作用
+## 1.自定义app
+### 作用
 * 固定layout
 * 保持一些公用状态
   * 全局数据同步
@@ -17,12 +17,12 @@ categories:
 * 自定义错误处理
 
 <!-- more -->
-# 2.document
+## 2.document
 * 只有在服务端渲染的时候才会被调用
 * 用来修改服务端渲染的文档内容
 * 一般用来配合第三方css-in-js方案使用
 
-# lazyloading
+## lazyloading
 * 异步加载模块
 ```js
 const moment = await import('moment')
@@ -34,7 +34,7 @@ const Comp = dynamic(import('../components/comp'))
 //Comp 为组件名
 ```
 
-# next.config.js
+## next.config.js
 配置情况,根据需要使用
 ```js
 const configs = {
