@@ -1,6 +1,7 @@
 ---
 title: 在vue中使用i18
 date: 2019-06-29
+sidebar: auto
 tags:
  - i18
  - vue

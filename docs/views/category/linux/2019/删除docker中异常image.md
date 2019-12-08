@@ -1,6 +1,7 @@
 ---
 title: 删除docker中异常image
 date: 2019-06-16
+sidebar: auto
 tags:
  - docker
 categories: 

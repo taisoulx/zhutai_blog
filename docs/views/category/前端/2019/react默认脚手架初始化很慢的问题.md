@@ -1,6 +1,7 @@
 ---
 title: react 默认脚手架初始化很慢的问题
 date: 2019-07-01
+sidebar: auto
 tags:
  - react
 categories: 

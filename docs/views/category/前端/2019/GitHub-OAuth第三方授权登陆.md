@@ -1,6 +1,7 @@
 ---
 title: github OAuth第三方授权登录
 date: 2019-06-30
+sidebar: auto
 tags:
  - OAuth
  - koa

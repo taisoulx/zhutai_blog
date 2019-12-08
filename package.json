@@ -10,7 +10,9 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.0.4",
     "markdown-it": "^10.0.0",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-flowchart": "^1.4.3"
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: nextjs的使用
 date: 2019-07-07
+sidebar: auto
 tags:
  - react
  - nextjs

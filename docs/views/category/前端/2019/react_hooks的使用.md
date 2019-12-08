@@ -1,6 +1,7 @@
 ---
 title: react hooks的使用
 date: 2019-07-06
+sidebar: auto
 tags:
  - react
  - react-hooks

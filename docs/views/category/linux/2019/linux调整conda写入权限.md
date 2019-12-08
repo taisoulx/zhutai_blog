@@ -1,6 +1,7 @@
 ---
 title: conda写入权限
 date: 2019-06-21
+sidebar: auto
 tags:
  - conda
  - python

@@ -1,6 +1,7 @@
 ---
 title: vscode 格式化reactjs
 date: 2019-07-02
+sidebar: auto
 tags:
  - react
 categories: 

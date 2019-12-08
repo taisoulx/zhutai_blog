@@ -1,6 +1,7 @@
 ---
 title: 使用conda
 date: 2019-06-20
+sidebar: auto
 tags:
  - conda
  - python

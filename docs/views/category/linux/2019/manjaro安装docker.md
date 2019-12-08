@@ -1,6 +1,7 @@
 ---
 title: manjaro安装docker
 date: 2019-06-17
+sidebar: auto
 tags:
  - docker
 categories: 

@@ -1,6 +1,7 @@
 ---
 title: pacman命令介绍
 date: 2019-06-08
+sidebar: auto
 tags:
  - manjaro
 categories: 

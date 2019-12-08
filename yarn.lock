@@ -867,6 +867,11 @@
   resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.0.5.tgz#243ab23ba2a3fb2dac521fa74f4a9423bf0de5e9"
   integrity sha1-JDqyO6Kj+y2sUh+nT0qUI78N5ek=
 
+"@vuepress-reco/vuepress-plugin-bgm-player@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-bgm-player/-/vuepress-plugin-bgm-player-1.0.4.tgz#c1faf39c1cbac1734756b75e301379361e48f49c"
+  integrity sha512-G58i68gALZAqb7BgqpL084NzsWygwBwm7hQUCGQaNtYom1lhvFhklotTGjwkU5cUipcmMDn7VtSIiLLfL8x5EQ==
+
 "@vuepress-reco/vuepress-plugin-comments@^1.0.8":
   version "1.0.8"
   resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-1.0.8.tgz#4f87e817f27f669cb9eaf94159fcfc493f638256"
@@ -2981,6 +2986,11 @@ etag@~1.8.1:
   resolved "https://registry.npm.taobao.org/etag/download/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+eve-raphael@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/eve-raphael/-/eve-raphael-0.5.0.tgz#17c754b792beef3fa6684d79cf5a47c63c4cda30"
+  integrity sha1-F8dUt5K+7z+maE15z1pHxjxM2jA=
+
 eventemitter3@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
@@ -3241,6 +3251,13 @@ find-up@^3.0.0:
   integrity sha1-SRafHXmTQwZG2mHsxa41XCHJe3M=
   dependencies:
     locate-path "^3.0.0"
+
+flowchart.js@^1.11.3:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/flowchart.js/-/flowchart.js-1.13.0.tgz#fd966270bd310ddefb168d6826c792c5f345372f"
+  integrity sha512-kr+XrH9WSE40ufAec/hs8kbAvSxFx4Fgyf/mjkJwTxWea5USuQAjZt0j9cZJO4ZayWkin9OkWxH4ovLF/5KZFA==
+  dependencies:
+    raphael "2.3.0"
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
@@ -6106,6 +6123,13 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   resolved "https://registry.npm.taobao.org/range-parser/download/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
 
+raphael@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/raphael/-/raphael-2.3.0.tgz#eabeb09dba861a1d4cee077eaafb8c53f3131f89"
+  integrity sha512-w2yIenZAQnp257XUWGni4bLMVxpUpcIl7qgxEgDIXtmSypYtlNxfXWpOBxs7LBTps5sDwhRnrToJrMUrivqNTQ==
+  dependencies:
+    eve-raphael "0.5.0"
+
 raw-body@2.4.0:
   version "2.4.0"
   resolved "https://registry.npm.taobao.org/raw-body/download/raw-body-2.4.0.tgz#a1ce6fb9c9bc356ca52e89256ab59059e13d0332"
@@ -7539,6 +7563,13 @@ vuepress-plugin-container@^2.0.2:
   integrity sha1-aIweWpcJobhlhgW8ruWAs6uxnRY=
   dependencies:
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-flowchart@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-flowchart/-/vuepress-plugin-flowchart-1.4.3.tgz#1692807257c9ba02f764ced0caf930c627f65bdb"
+  integrity sha512-Vyhh2xiCvMoubwBBDdre5u2tekp3B0N9vGDxAbgHUJH5L6V1venq1pWsbhKi9Wmr2Pa/yOTq3se1ji2w/kDr+A==
+  dependencies:
+    flowchart.js "^1.11.3"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"

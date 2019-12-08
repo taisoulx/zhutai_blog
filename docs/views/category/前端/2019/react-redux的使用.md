@@ -1,6 +1,7 @@
 ---
 title: react-redux的使用
 date: 2019-07-05
+sidebar: auto
 tags:
  - react
  - react-redux

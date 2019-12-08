@@ -1,6 +1,7 @@
 ---
 title: react-tools-extension的使用
 date: 2019-07-03
+sidebar: auto
 tags:
  - react
  - tool

@@ -1,6 +1,7 @@
 ---
 title: rabbitmq的安装
 date: 2019-06-14
+sidebar: auto
 tags:
  - rabbitmq
  - golang

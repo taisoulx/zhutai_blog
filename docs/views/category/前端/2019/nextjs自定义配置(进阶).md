@@ -1,6 +1,7 @@
 ---
 title: nextjs自定义配置(进阶)
 date: 2019-07-08
+sidebar: auto
 tags:
  - react
  - nextjs

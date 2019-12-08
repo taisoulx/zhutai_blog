@@ -1,6 +1,7 @@
 ---
 title: rabbitmq的简单使用
 date: 2019-06-15
+sidebar: auto
 tags:
  - rabbitmq
  - golang

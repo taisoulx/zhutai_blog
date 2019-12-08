@@ -1,6 +1,7 @@
 ---
 title: react HOC模式介绍
 date: 2019-07-09
+sidebar: auto
 tags:
  - react
  - HOC

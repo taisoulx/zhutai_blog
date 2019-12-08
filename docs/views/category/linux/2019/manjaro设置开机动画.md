@@ -1,6 +1,7 @@
 ---
 title: manjaro设置开机动画
 date: 2019-06-07
+sidebar: auto
 tags:
  - manjaro
 categories: 

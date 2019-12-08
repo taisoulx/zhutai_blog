@@ -1,6 +1,7 @@
 ---
 title: ubuntu 安装mysql
 date: 2019-06-25
+sidebar: auto
 tags:
  - mysql
  - ubuntu
