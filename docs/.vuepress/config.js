@@ -27,6 +27,7 @@ module.exports = {
         "link": "/",
         "icon": "reco-home"
       },
+      { text: 'Notes', link: '/note/', icon: 'reco-document' },
       {
         "text": "TimeLine",
         "link": "/timeLine/",
@@ -77,7 +78,15 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "taisoulx",
     // "record": "xxx",
-    "startYear": "2019"
+    "startYear": "2019",
+
+    valineConfig: {
+      appId: 'k0A6vSEaFqCKiTigJDokEa5g-gzGzoHsz',// your appId
+      appKey: '4GENP8SL8SerImRoX9SrQU9h', // your appKey
+      placeholder: '是时候展现真正的技术了',
+      avatar: 'wavatar',
+      // serverUrl: 'https://leanserver.smallsunnyfox.com'
+    }
   },
   // "markdown": {
   //   "lineNumbers": true
