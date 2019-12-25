@@ -1,6 +1,6 @@
 ---
 title: MongoDB基本操作
-date: 2019-10-25
+date: 2019-10-26
 sidebar: auto
 tags:
  - mac
@@ -65,6 +65,7 @@ db.accounts.insertOne(
 ### 创建多个文档
 1. db.collection.insertMany()
 2. 语法：
+```js
 db.collection.insertMany(
    [ <document 1> , <document 2>, ... ] ,//An array of documents to insert into the collection. 注意是数组
    {
@@ -72,6 +73,7 @@ db.collection.insertMany(
       ordered: <boolean>   //Optional. A boolean specifying whether the mongod instance should perform an ordered or unordered insert. Defaults to true.   默认式按照顺序添加的    顺序添加的速度要慢于不按顺序添加的
    }
 )
+```
 
 ```js
 db.accounts.insertMany(
@@ -93,6 +95,7 @@ db.accounts.insertMany(
 
 ### 通用创建用法-insert
 1. 语法:
+```js
 db.collection.insert(
    <document or array of documents>,  //数组或者文档都可以添加
    {
@@ -100,7 +103,7 @@ db.collection.insert(
      ordered: <boolean> //跟insertMany()操作作用一致
    }
 )
-
+```
 2. 案例
 ```js
 db.accounts.insert(
