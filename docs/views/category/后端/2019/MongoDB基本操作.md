@@ -21,19 +21,19 @@ categories:
 
 ## 创建文档
 
-* db.collection.insert()
-* db.collection.save()
+* `db.collection.insert()`
+* `db.collection.save()`
 * 创建多个文档
 
 ## 使用mongo shell进行操作
 
 ### 使用test数据库
-1. use test
+1. `use test`
 ### 查看test数据库中的集合
-1. show collections
+1. `show collections`
 
 ### 开始创建第一个文档
-1. db.collection.insertOne()
+1. `db.collection.insertOne()`
 2. 准备写入数据库的文档
 ```js
 {
@@ -56,14 +56,14 @@ db.accounts.insertOne(
 ```js
 { "acknowledged" : true, "insertedId" : "account1" }
 ```
-* "acknowledged" : true 表示安全写级别被启用
-* 由于我们在db.collection.insertOne()命令中没有提供writeConcern文档，这里显示的是mongoDB默认的安全写级别启用状态
+* `"acknowledged" : true `表示安全写级别被启用
+* 由于我们在`db.collection.insertOne()`命令中没有提供writeConcern文档，这里显示的是mongoDB默认的安全写级别启用状态
 * "insertedId"显示了被写入的文档的_id
 
-5. db.collection.insertOne()命令会自动创建collection
+5. `db.collection.insertOne()`命令会自动创建collection
 
 ### 创建多个文档
-1. db.collection.insertMany()
+1. `db.collection.insertMany()`
 2. 语法：
 ```js
 db.collection.insertMany(

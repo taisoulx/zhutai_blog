@@ -1,5 +1,5 @@
 ---
-title: mac下采用docker使用MongoDB
+title: mac下mongodb使用conf启动
 date: 2019-12-28
 sidebar: auto
 tags:
