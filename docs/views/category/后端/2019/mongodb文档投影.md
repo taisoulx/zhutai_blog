@@ -9,11 +9,11 @@ categories:
  - 后端
 ---
 
-## 查询：db.collection.find(<query>,<projection>)
+## 查询：`db.collection.find(<query>,<projection>)`
 - 不使用投影时，db.collection.find()返回符合筛选条件的完整文档
 - 使用投影可以有选择性返回文档中的部分字段
 
-### 语法：{ field: inclusion }
+### 语法：`{ field: inclusion }`
 - 1表示返回字段，0表示不返回字段
 
 eg：“只返回银行账户文档中的用户姓名”
