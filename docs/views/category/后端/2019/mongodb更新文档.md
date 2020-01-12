@@ -284,9 +284,50 @@ db.accounts.update(
 
 
 - `$pullAll` 从数组中有选择性地移除元素
+`{$pull:{<field>:<value|condition>}}`
+`<pullall:{field:[<value1>,<value2>...]}>`
+相当于：
+---->
+`{$pull:{<field>:{$in:[<value1>,<value2>]}}}`
+
+-->删除内嵌文档
+`$pull`:
+```js
+db.accounts.update(
+    {name:'karen'},
+    {$pull:{
+        lianxifangshi :{'email':'450403015@11.com'}
+    }}
+
+)
+```
+*`$pull`命令会删去包含指定的文档字段和字段值得文档元素，字段排列顺序不需要完全匹配*
+*`$pullall`命令需要匹配对象完全相同，包括顺序*
+
 - `$push` 向数组中增添元素
+`$push`和`$addToSet`命令相似，但是`$push`命令的功能更强大
+和`$addToSet`一样，如果push命令中指定的数组字段不存在，这个字段会被添加到原文档中
 
 
 ## 更新文档操作符号
+占位符：`$`
+`$.[]`
+
 
 ## 更新多个文档
+options:
+
+1. `multi:boolean`
+```js
+db.accounts.update(
+    {},
+    {$set:{currecy:"usd"}},
+    {multi:true}
+    
+)
+```
+--> 所有的文档都将加上`currecy:'usd'` 
+
+*注意，MongoDB只能保证*单个*文档操作的原子性，不能保证多个文档操作的原子性*
+*更新多个文档的操作虽然在单一线程中执行，但是线程在执行过程中可能被挂起，以便其他线程也有机会对数据进行操作*
+*如果要保证多个文档操作时的原子性，就需要使用MongoDB 4.0版本引入的事务功能进行操作*
